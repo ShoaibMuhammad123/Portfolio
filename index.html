@@ -926,6 +926,45 @@
                 grid-template-columns: 1fr;
             }
         }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f5f7fa;
+        }
+
+        .tech-stack {
+            max-width: 800px;
+            margin: 40px auto;
+        }
+
+        .tech-stack h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .stack-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .tech-badge {
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            padding: 10px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: default;
+        }
+
+        .tech-badge:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+        }
     </style>
 </head>
 <body>
